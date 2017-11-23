@@ -6,6 +6,7 @@ from discord.ext import commands
 __author__ = "Havoc"
 
 class Wednesday:
+    """Cog to notify the server when it is wednesday"""
 
     def __init__(self, bot):
         self.bot = bot
