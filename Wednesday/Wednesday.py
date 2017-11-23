@@ -16,9 +16,18 @@ class Wednesday:
         self.bot = bot
         self.tiggered = false
 
+    @commands.command()
+    async def card(self, name):
+        """Searches for a regular Hearthstone card"""
+
+        r = requests.get('https://omgvamp-hearthstone-v1.p.mashape.com/cards/{}'.format(name), headers={'X-Mashape-Key':'sly1A6Ur3tmshrDtRbWe4q738Afxp1cnkhajsnWqVf9HMJ7ZOJ'}) 
+        
+        await self.bot.say(r.json()[0]['img'])
+        await self.bot.say(r.json()[0]['flavor'])    
+        
+        '''
     async def on_message(self, message):
-        """the bots entire functionallity"""
-        """
+        
         channel = message.channel
         author = message.author
         weekday = datetime.now().isoweekday()
@@ -41,8 +50,9 @@ class Wednesday:
 
         if tiggered == true
             return
-        """
+       
         await self.bot.say("It is Wednesday my dudes")
-
-        
+'''
+    def setup(bot):
+        bot.add_cog(Wednesday(bot))
 
