@@ -1,7 +1,13 @@
 import discord
 import datetime
-import requests
+import os
+import asyncio
+import re
 from discord.ext import commands
+from cogs.utils import checks
+from cogs.utils.dataIO import dataIO
+from cogs.utils.chat_formatting import box, pagify, escape_mass_mentions
+from random import choice
 
 class Wednesday:
     """Cog to notify the server when it is wednesday"""
