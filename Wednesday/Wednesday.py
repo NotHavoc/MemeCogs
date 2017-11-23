@@ -25,7 +25,6 @@ class Wednesday:
         await self.bot.say(r.json()[0]['img'])
         await self.bot.say(r.json()[0]['flavor'])    
         
-        '''
     async def on_message(self, message):
         
         channel = message.channel
@@ -52,7 +51,7 @@ class Wednesday:
             return
        
         await self.bot.say("It is Wednesday my dudes")
-'''
+
     def setup(bot):
         bot.add_cog(Wednesday(bot))
 
