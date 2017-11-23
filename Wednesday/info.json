@@ -2,7 +2,7 @@
     "AUTHOR" : "Havoc",
     "SHORT" : "Notify when Wednesday",
     "DESCRIPTION" : "Notify server of what day it is"
-    "INSTALL_MSG": "It worked?",
+    "INSTALL_MSG" : "It worked?",
     "NAME" : "Wednesday",
     "TAGS" : ["response", "autoresponse"]
 }
