@@ -12,7 +12,7 @@ class Wednesday:
 
     async def on_message(self, message):
         """the bots entire functionallity"""
-        
+        """
         channel = message.channel
         author = message.author
         weekday = datetime.now().isoweekday()
@@ -35,7 +35,7 @@ class Wednesday:
 
         if tiggered == true
             return
-
+        """
         await self.bot.say("It is Wednesday my dudes")
 
         
