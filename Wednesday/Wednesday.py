@@ -1,8 +1,6 @@
 import discord
 import datetime
-import os
-import asyncio
-import re
+import requests
 from discord.ext import commands
 
 __author__ = "Havoc"
@@ -33,7 +31,7 @@ class Wednesday:
         if self.is_command(message):
             return
 
-        if weekday != 3
+        if weekday != 4
             self.tiggered = false
             return
 
