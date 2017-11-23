@@ -1,0 +1,7 @@
+{
+    "AUTHOR" : "Havoc",
+    "SHORT" : "Notify when Wednesday",
+    "DESCRIPTION" : "Notify server of what day it is",
+    "DISABLED" : false,
+    "NAME" : "Wednesday",
+    "TAGS" : ["response", "autoresponse"]
