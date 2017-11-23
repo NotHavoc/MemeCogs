@@ -27,7 +27,7 @@ class Wednesday:
         await self.bot.say(r.json()[0]['flavor'])
 
 def setup(bot):
-    bot.add_cog(Hearthstone(bot))
+    bot.add_cog(Wednesday(bot))
 
 """
 import discord
