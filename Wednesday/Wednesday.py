@@ -3,8 +3,6 @@ import datetime
 import requests
 from discord.ext import commands
 
-__author__ = "Havoc"
-
 class Wednesday:
     """Cog to notify the server when it is wednesday"""
 
