@@ -13,6 +13,8 @@ class Wednesday:
         self.tiggered = false
 
     async def on_message(self, message):
+        """the bots entire functionallity"""
+        
         channel = message.channel
         author = message.author
         weekday = datetime.now().isoweekday()
