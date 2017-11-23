@@ -5,9 +5,6 @@ from discord.ext import commands
 
 __author__ = "Havoc"
 
-class GenericError(Exception):
-    pass
-
 class Wednesday:
 
     def __init__(self, bot):
